@@ -1,8 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login('NDM4MzgyMjU3MjA0NjI1NDE4.DcEC-A._5AcQlh8yi9fgP8wxF2iaZWq514');
-
 bot.on('message', message => {
     if (message.content.startsWith(".brabo")){
         randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
