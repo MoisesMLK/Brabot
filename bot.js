@@ -24,4 +24,4 @@ bot.on('message', message => {
     }
 });
 
-bot.login(process.env.BOAT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
