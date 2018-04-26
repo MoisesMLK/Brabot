@@ -22,6 +22,13 @@ bot.on('message', message => {
             message.reply("TA NO SEU CU FILHA DA PUTA");
         }
     }
+    
+    if (message.content.startsWith('.godsplan')){
+        randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
+        if (randomNumber == 1){
+             message.reply("God's Plan")
+        }
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
