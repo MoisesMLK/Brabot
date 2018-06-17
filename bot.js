@@ -1,11 +1,7 @@
-import { GuildMember } from 'discord.js';
-
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.fetchUser(id, [cache])
-bot.on('message', message => {
-    if (message.content.startsWith(".brabo")){
+     if (message.content.startsWith(".brabo")){
         randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
         if(randomNumber == 1){
             message.reply("Va te toma no cú");
