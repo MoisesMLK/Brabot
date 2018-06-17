@@ -1,12 +1,15 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-     if (message.content.startsWith(".brabo")){
+bot.login('NDM4MzgyMjU3MjA0NjI1NDE4.DcEC-A._5AcQlh8yi9fgP8wxF2iaZWq514');
+
+bot.on('message', message => {
+    if (message.content.startsWith(".brabo")){
         randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
         if(randomNumber == 1){
             message.reply("Va te toma no cú");
         }
-    }
+}
 
     fala1 = "./fala/fala 1.jpeg"; fala2 = "./fala/fala 2.jpeg"; fala3 = "./fala/fala 3.jpeg"; fala4 = "./fala/fala 4.jpeg"; fala5 = "./fala/fala 5.jpeg"; fala6 = "./fala/fala 6.jpeg"; fala7 = "./fala/fala 7.jpeg"; fala8 = "./fala/fala 8.jpeg"; fala9 = "./fala/fala 9.jpeg"; fala10 = "./fala/fala 10.jpeg"; fala11 = "./fala/fala 11.jpeg"; fala12 = "./fala/fala 12.jpeg"; fala13 = "./fala/fala 13.jpeg"; fala14 = "./fala/fala 14.jpeg"; fala15 = "./fala/fala 15.jpeg"; fala16 = "./fala/fala 16.jpeg"; fala17 = "./fala/fala 17.jpeg"; fala18 = "./fala/fala 18.jpeg"; fala19 = "./fala/fala 19.jpeg"; fala20 = "./fala/fala 20.jpeg"; fala21 = "./fala/fala 21.jpeg"; fala22 = "./fala/fala 22.jpeg"; fala23 = "./fala/fala 23.jpeg";
     if (message.content.startsWith(".bomdia")){
