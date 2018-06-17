@@ -17,29 +17,29 @@ bot.on('message', message => {
         number = 23
         var random = Math.floor(Math.random() * (number - 1 + 1)) + 1;
         switch (random) {
-            case 1: message.channel.send ({ files: [fala1] }); break;
-            case 2: message.channel.send ({ files: [fala2] }); break;
-            case 3: message.channel.send ({ files: [fala3] }); break;
-            case 4: message.channel.send ({ files: [fala4] }); break;
-            case 5: message.channel.send ({ files: [fala5] }); break;
-            case 6: message.channel.send ({ files: [fala6] }); break;
-            case 7: message.channel.send ({ files: [fala7] }); break;
-            case 8: message.channel.send ({ files: [fala8] }); break;
-            case 9: message.channel.send ({ files: [fala9] }); break;
-            case 10: message.channel.send ({ files: [fala10] }); break;
-            case 11: message.channel.send ({ files: [fala11] }); break;
-            case 12: message.channel.send ({ files: [fala12] }); break;
-            case 13: message.channel.send ({ files: [fala13] }); break;
-            case 14: message.channel.send ({ files: [fala14] }); break;
-            case 15: message.channel.send ({ files: [fala15] }); break;
-            case 16: message.channel.send ({ files: [fala16] }); break;
-            case 17: message.channel.send ({ files: [fala17] }); break;
-            case 18: message.channel.send ({ files: [fala18] }); break;
-            case 19: message.channel.send ({ files: [fala19] }); break;
-            case 20: message.channel.send ({ files: [fala20] }); break;
-            case 21: message.channel.send ({ files: [fala21] }); break;
-            case 22: message.channel.send ({ files: [fala22] }); break;
-            case 23: message.channel.send ({ files: [fala23] }); break;
+            case 1: message.reply ({ files: [fala1] }); break;
+            case 2: message.reply ({ files: [fala2] }); break;
+            case 3: message.reply ({ files: [fala3] }); break;
+            case 4: message.reply ({ files: [fala4] }); break;
+            case 5: message.reply ({ files: [fala5] }); break;
+            case 6: message.reply ({ files: [fala6] }); break;
+            case 7: message.reply ({ files: [fala7] }); break;
+            case 8: message.reply ({ files: [fala8] }); break;
+            case 9: message.reply ({ files: [fala9] }); break;
+            case 10: message.reply ({ files: [fala10] }); break;
+            case 11: message.reply ({ files: [fala11] }); break;
+            case 12: message.reply ({ files: [fala12] }); break;
+            case 13: message.reply ({ files: [fala13] }); break;
+            case 14: message.reply ({ files: [fala14] }); break;
+            case 15: message.reply ({ files: [fala15] }); break;
+            case 16: message.reply ({ files: [fala16] }); break;
+            case 17: message.reply ({ files: [fala17] }); break;
+            case 18: message.reply ({ files: [fala18] }); break;
+            case 19: message.reply ({ files: [fala19] }); break;
+            case 20: message.reply ({ files: [fala20] }); break;
+            case 21: message.reply ({ files: [fala21] }); break;
+            case 22: message.reply ({ files: [fala22] }); break;
+            case 23: message.reply ({ files: [fala23] }); break;
         
 
         }
