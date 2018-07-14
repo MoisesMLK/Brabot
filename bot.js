@@ -42,11 +42,39 @@ bot.on('message', message => {
             case 23: message.reply ({ files: [fala23] }); break;
         }
     }
-        
 
+
+    boanoite1 = "./bn/boa noite 1.jpg"; boanoite2 = "./bn/boa noite 2.jpg"; boanoite3 = "./bn/boa noite 3.jpg"; boanoite4 = "./bn/boa noite 4.jpg"; boanoite5 = "./bn/boa noite 5.jpg"; boanoite6 = "./bn/boa noite 6.jpg"; boanoite7 = "./bn/boa noite 7.jpg"; boanoite8 = "./bn/boa noite 8.jpg"; boanoite9 = "./bn/boa noite 9.jpg"; boanoite10 = "./bn/boa noite 10.jpg"; boanoite11 = "./bn/boa noite 11.jpg"; boanoite12 = "./bn/boa noite 12.jpg"; boanoite13 = "./bn/boa noite 13.jpg"; boanoite14 = "./bn/boa noite 14.jpg"; boanoite15 = "./bn/boa noite 15.jpg"; boanoite16 = "./bn/boa noite 16.jpg"; boanoite17 = "./bn/boa noite 17.jpg"; boanoite18 = "./bn/boa noite 18.jpg"; boanoite19 = "./bn/boa noite 19.jpg"; boanoite20 = "./bn/boa noite 20.jpg"; boanoite21 = "./bn/boa noite 21.jpg";
+    if (message.content.startsWith(".boanoite")){
+        number = 21;
+        var random = Math.floor(Math.random() * (number - + 1)) + 1;
+        switch (random) {
+            case 1: message.reply ({ files: [boanoite1] }); break;
+            case 2: message.reply ({ files: [boanoite2] }); break;
+            case 3: message.reply ({ files: [boanoite3] }); break;
+            case 4: message.reply ({ files: [boanoite4] }); break;
+            case 5: message.reply ({ files: [boanoite5] }); break;
+            case 6: message.reply ({ files: [boanoite6] }); break;
+            case 7: message.reply ({ files: [boanoite7] }); break;
+            case 8: message.reply ({ files: [boanoite8] }); break;
+            case 9: message.reply ({ files: [boanoite9] }); break;
+            case 10: message.reply ({ files: [boanoite10] }); break;
+            case 11: message.reply ({ files: [boanoite11] }); break;
+            case 12: message.reply ({ files: [boanoite12] }); break;
+            case 13: message.reply ({ files: [boanoite13] }); break;
+            case 14: message.reply ({ files: [boanoite14] }); break;
+            case 15: message.reply ({ files: [boanoite15] }); break;
+            case 16: message.reply ({ files: [boanoite16] }); break;
+            case 17: message.reply ({ files: [boanoite17] }); break;
+            case 18: message.reply ({ files: [boanoite18] }); break;
+            case 19: message.reply ({ files: [boanoite19] }); break;
+            case 20: message.reply ({ files: [boanoite20] }); break;
+            case 21: message.reply ({ files: [boanoite21] }); break;
+
+
+        }
+    }
         
-        
-    
 
     if (message.content.startsWith(".unimed")){
         randomNumber = Math.floor(Math.random() * (1 - 1) + 1);
